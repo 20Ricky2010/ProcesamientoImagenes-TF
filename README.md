@@ -47,6 +47,15 @@ El modelo fue entrenado utilizando un dataset adicional que combina imágenes de
 
 ## Conclusiones
 
+El proyecto utilizó técnicas clave como el aumento de capas, la implementación de clases y el **data augmentation**, lo que mejoró la diversidad de los datos y la capacidad del modelo para clasificar tatuajes con mayor precisión. 
+
+### Resultados:
+- El modelo mostró un desempeño satisfactorio en la mayoría de los casos.
+- Presentó dificultades al identificar tatuajes abstractos o patrones poco comunes, generando resultados inconsistentes en estos escenarios.
+
+### Trabajo Futuro:
+Se plantea el uso de múltiples modelos que primero identifiquen los cuerpos de las personas y luego detecten tatuajes. Este enfoque busca mejorar la precisión general y reducir la dependencia de patrones predefinidos en las imágenes de entrenamiento.
+
 ## Licencia:
 
 This work is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1)
